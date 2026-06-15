@@ -1,114 +1,58 @@
-# 🚀 Radical Coder — *Learning is Radical*
+# Ryan Gonyon
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-Visit-ff6b00?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://radical-coder.github.io/learning-is-radical/)
+I help founders stabilize AI-built and workflow-heavy web apps.
 
----
+My strongest work is in Next.js, React, TypeScript, Supabase, Stripe, Vercel, auth, webhooks, dashboards, and production-readiness reviews for products that already exist but need to become reliable.
 
-> *Learning isn't just an act — it's a rebellion.*
+[radical.codes](https://radical.codes) | [GitHub](https://github.com/Radical-Coder) | [LinkedIn](https://linkedin.com/in/ryangonyon) | [Email](mailto:coderradical@gmail.com)
 
----
+## What I Work On
 
-## ✨ About
+- AI-built app rescue: reviewing Lovable, Replit, Cursor, and other AI-assisted builds before they become production liabilities.
+- Founder-built product hardening: turning promising but fragile apps into something safer to launch, demo, or sell.
+- Workflow-heavy SaaS and internal tools: dashboards, admin flows, approval queues, client portals, marketplace operations, and automation surfaces.
+- Payment, auth, and data trust boundaries: Stripe, Supabase, RLS, account state, webhook handling, role permissions, and failure paths.
+- Technical audits with implementation: identifying the highest-risk blocker, proving it, and fixing the first useful slice.
 
-**Learning is Radical** is a personal site and project hub built with **Vue 3** and **TailwindCSS**,
-fully CDN-driven — no build tooling, no friction, no excuses.
+## Selected Proof
 
-It exists to showcase real work, living reflections, and experiments
-at the edge of **software engineering**, **AI innovation**, and **socio-technical creativity**.
+- [AutoMarkets](https://www.automarkets.com.au/) - live automotive marketplace work involving listing workflows, marketplace/admin logic, and production-facing delivery constraints.
+- [Data Flow Canvas MVP](https://github.com/Radical-Coder/data-flow-canvas-mvp) - simple pipeline runner showing transform, API request, and output composition.
 
----
+More client-safe proof is being consolidated from private work into public demos and case-study style repositories. Current candidates include a Stripe/webhook lab, an AI-built app readiness audit demo, and a review-queue workflow proof.
 
-## 🔥 Features
+## How I Work
 
-- **🧩 Component-Based:** Modular Vue 3 structure (Navbar, Hero, About, Projects, Logs, Contact, Footer)
-- **🎨 TailwindCSS Styling:** Custom dark theme with accent palette
-- **⚡ Instant Deploy:** Fully static GitHub Pages deployment — no npm, no bundling
-- **📈 Data-Driven Content:** Projects and Logs rendered dynamically from arrays (ready for external JSON later)
-- **📱 Mobile-First:** Responsive, fast, and lightweight
-- **🔮 Future-Proof:** Easily extensible into a full markdown blog or app launcher
+I usually start with a short orientation pass, then touch the code quickly. For messy systems, the first milestone should produce a decision, a working proof, or a reduced risk surface instead of a broad rebuild plan.
 
----
+My default sequence:
 
-## 🛠️ Tech Stack
+1. Map the current app, data flow, and deployment state.
+2. Identify the highest-risk boundary: auth, payments, data access, webhooks, admin actions, or release process.
+3. Prove the failure path or missing behavior.
+4. Fix the smallest meaningful slice.
+5. Leave a clear handoff: what changed, how it was verified, and what should happen next.
 
-| Layer         | Tech                         |
-|---------------|-------------------------------|
-| Frontend      | [Vue 3](https://vuejs.org/) (via CDN) |
-| Styling       | [TailwindCSS](https://tailwindcss.com/) (via CDN) |
-| Deployment    | [GitHub Pages](https://pages.github.com/) |
-| Markup        | Vanilla HTML5 / Markdown |
+## Stack
 
----
+Primary: TypeScript, React, Next.js, Vite, Node.js, Supabase, PostgreSQL, Stripe, Vercel, Playwright, GitHub, Obsidian, Codex.
 
-## 🗂️ Project Structure
+Adjacent: Python, Streamlit, automation scripts, AI workflow tooling, data ingestion, browser automation, and creator/operator systems.
 
-```text
-index.html
-└── #app (Vue Mount Point)
-    ├── NavBar (component)
-    ├── Hero
-    ├── About
-    ├── Projects (dynamic from data array)
-    ├── Logs (dynamic from data array)
-    ├── Contact
-    └── Footer
-```
+## Background
 
----
+I have a computer science degree from the University of Central Florida, worked professionally as an engineer, and have taught programming, math, and web development across tutoring, classroom, and online settings.
 
-## 🚀 Quick Start
+That teaching background still affects how I build: I care about systems that are understandable, handoff-friendly, and usable by the people who actually operate them.
 
-```bash
-# Clone the repo
-git clone https://github.com/Radical-Coder/learning-is-radical.git
+## Good Fit
 
-# Open the index.html file directly in your browser
-open index.html
-```
+Reach out if you have:
 
-✅ No install steps.  
-✅ No build steps.  
-✅ No node_modules hell.  
+- a working app that feels fragile;
+- an AI-generated product that needs a real engineering pass;
+- Stripe, Supabase, auth, or webhook behavior you do not fully trust;
+- a workflow-heavy dashboard or internal tool that needs to be clearer and more reliable;
+- a founder-built product where judgment matters more than raw feature volume.
 
-Just **open and go**.
-
----
-
-## 🧪 Future Enhancements
-
-- [ ] Fetch projects/logs from external `.json`
-- [ ] Add simple Markdown blog system
-- [ ] Smooth transition animations (Vue `<transition>`)
-- [ ] Custom 404 page
-- [ ] Domain mapping to `radical.codes`
-
----
-
-## 👨‍💻 Author
-
-**Ryan Gonyon**  
-> *Building systems, telling stories, forging frameworks of radical creativity through code.*
-
-- GitHub: [@Radical-Coder](https://github.com/Radical-Coder)
-- Twitter / X: [@theradicalcoder](https://twitter.com/theradicalcoder)
-- YouTube: [@radicalcoder](https://www.youtube.com/@radicalcoder)
-- Instagram: [@theradicalcoder](https://instagram.com/theradicalcoder)
-- Threads: [@theradicalcoder](https://www.threads.net/@theradicalcoder)
-- Bluesky: [@radicalcoder.bsky.social](https://bsky.app/profile/radicalcoder.bsky.social)
-- LinkedIn: [Ryan Gonyon](https://linkedin.com/in/ryangonyon)
-- Email: [coderradical@gmail.com](mailto:coderradical@gmail.com)
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-Feel free to fork, remix, build, and learn.
-
----
-
-# 🌌
-
-> *"Learning is Radical. Building is Resistance. Growth is Power."*
-
----
+Email: [coderradical@gmail.com](mailto:coderradical@gmail.com)
